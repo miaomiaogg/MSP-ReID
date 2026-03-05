@@ -1,4 +1,3 @@
-### A Simple Codebase for Clothes-Changing Person Re-identification.
 ####  [MSP-ReID: Hairstyle-Robust Cloth-Changing Person Re-Identification(ICASSP, 2026)](https://arxiv.org/abs/2603.01640)
 
 #### Requirements
@@ -16,7 +15,7 @@
 #### Citation
 
 If you use our code/dataset in your research or wish to refer to the baseline results, please use the following BibTeX entry.
-    
+  ```  
    @misc{he2026mspreidhairstylerobustclothchangingperson,
       title={MSP-ReID: Hairstyle-Robust Cloth-Changing Person Re-Identification}, 
       author={Xiangyang He and Lin Wan},
@@ -26,6 +25,7 @@ If you use our code/dataset in your research or wish to refer to the baseline re
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2603.01640}, 
 }
+```
 #### Related Repos
 
 - [Simple-ReID](https://github.com/guxinqian/Simple-ReID)
