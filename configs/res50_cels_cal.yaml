@@ -1,0 +1,13 @@
+MODEL:
+  NAME: resnet50
+DATA:
+  NUM_INSTANCES: 4
+  TRAIN_BATCH: 16
+LOSS:
+  CLA_LOSS: crossentropylabelsmooth
+  CAL: cal
+  ERASE_KEEP_RANGE: [0.05, 0.15]   # 加上默认值
+  ADV_WEIGHT: 0.5               # 加上默认值
+  ATT_WEIGHT: 1.0               # 加上默认值
+  ERASE_PROB: 0.5
+TAG: res50-cels-cal
